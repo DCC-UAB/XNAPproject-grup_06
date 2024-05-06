@@ -1,6 +1,8 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/L30CyvB9)
-# XNAP-Project title (replace it by the title of your project)
-Write here a short summary about your project. The text must include a short introduction and the targeted goals
+# XNAP - Hand written recognition
+Hand written recogition is a classic problem in the field of pattern recognition and computer vision, it remains a significant challenge due to the variability and the complexity of different human handriting.
+
+This project aims to leverage the power of deep learning to develop an accurate and efficient system for recognizing handwritten characters words or sentences by training neural networks on large datasets.
 
 ## Code structure
 You must create as many folders as you consider. You can use the proposed structure or replace it by the one in the base code that you use as starting point. Do not forget to add Markdown files as needed to explain well the code and how to use it.
@@ -22,7 +24,10 @@ python main.py
 
 ## Contributors
 Write here the name and UAB mail of the group members
-
+Anna Vallvé -
+Alex Guareño -
+Fiona Bela -
+Jace Herzog -
 Xarxes Neuronals i Aprenentatge Profund
-Grau de __Write here the name of your estudies (Artificial Intelligence, Data Engineering or Computational Mathematics & Data analyitics)__, 
-UAB, 2023
+Grau d'enginyeria de dades, 
+UAB, 2024
