@@ -1,9 +1,11 @@
 Dades
+
 Dataset: https://www.kaggle.com/datasets/landlord/handwriting-recognition
 Conjunts d’imatges amb noms escrits:
 -	Conjunt train: Conjunt de ¿?.
 -	Conjunt validation: Conjunt de 41.370.
 -	Conjunt test: Conjunt de 41.370.
+
 Arxius CSV:
 -	Train (written_name_train_v2)
 -	Validation (written_name_validation_v2)
