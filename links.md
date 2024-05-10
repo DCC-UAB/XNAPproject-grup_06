@@ -12,6 +12,9 @@ https://learner-cares.medium.com/handwritten-digit-recognition-using-convolution
 
 https://github.com/anandhkishan/Handwritten-Character-Recognition-using-CNN/blob/master/emnist%20cnn%20model.ipynb
 
+https://sushantgautm.medium.com/how-to-make-real-time-handwritten-text-recognition-with-augmentation-and-deep-learning-9281323d80c1
+
+
 
 **IMPORTANT**
 
