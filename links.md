@@ -16,3 +16,5 @@ https://github.com/anandhkishan/Handwritten-Character-Recognition-using-CNN/blob
 **IMPORTANT**
 
 https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
+
+https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master
