@@ -1,6 +1,7 @@
 Aquesta carpeta conté les dades que es tractaran.
 
 Dataset: https://www.kaggle.com/datasets/landlord/handwriting-recognition
+
 Conjunts d’imatges amb noms escrits:
 -	Conjunt train: Conjunt de 331.059.
 -	Conjunt test: Conjunt de 41.382.
