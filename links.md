@@ -14,10 +14,12 @@ https://github.com/anandhkishan/Handwritten-Character-Recognition-using-CNN/blob
 
 https://sushantgautm.medium.com/how-to-make-real-time-handwritten-text-recognition-with-augmentation-and-deep-learning-9281323d80c1
 
+https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master
+
 
 
 **IMPORTANT**
 
 https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
 
-https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master
+https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
