@@ -23,3 +23,5 @@ https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master
 https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
 
 https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
+
+versio millorada: https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model
