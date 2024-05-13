@@ -31,3 +31,7 @@ versio millorada: https://www.kaggle.com/code/ademhph/handwriting-recognition-us
 **CRNN**
 
 https://www.kaggle.com/code/quydau/handwriting-recognition-with-crnn-model
+
+
+**CRNN amb Keras**
+https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras
