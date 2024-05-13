@@ -20,6 +20,7 @@ https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
 
 
 
+
 **CNN**
 
 https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
