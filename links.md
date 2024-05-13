@@ -16,12 +16,17 @@ https://sushantgautm.medium.com/how-to-make-real-time-handwritten-text-recogniti
 
 https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master
 
-
-
-**IMPORTANT**
-
 https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
+
+
+
+**CNN**
 
 https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
 
 versio millorada: https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model
+
+
+**CRNN**
+
+https://www.kaggle.com/code/quydau/handwriting-recognition-with-crnn-model
