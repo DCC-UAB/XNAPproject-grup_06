@@ -81,7 +81,7 @@ Per tal de contestar aquesta pregunta s’ha canviat el volum de les dades utili
 Amb els valors obtinguts es pot confirmar que l'aprenentatge canvia negativament, de forma que el model no apren de manera correcta. Per tant, es pot afirmar que s'ha d'utilitzar un gran volum de dades i un nombre d'epochs elevat per tal d'obtenir uns bons resultats pel nostre model.
 <br /><br />
 
-**Pregunta 12:** Seria útil realitzar un HeatMap?
+**Pregunta 12:** Seria útil realitzar un HeatMap?<br />
 Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són més rellevants pel model durant el procés de reconeixement.
 <br /><br /><br />
 <br />
