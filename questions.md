@@ -42,11 +42,11 @@ No és la opció més òptima, per la manca de capacitat per capturar relacions 
 **Resposta 4:** 
 <br /><br />
 
-**Pregunta 5:** És més convenient un model on l'aprenentage de cadascuna de les lletres es realitza per separat o de forma conjunta?<br />
+**Pregunta 5:** Quin és el model més convenient?<br />
 Creiem que el més convenient és CRNN, ja que és un model híbrid entre CNN i RNN que combina la capacitat de les CNNs per extreure característiques visuals i la capacitat de les RNNs per modelar seqüències. 
 <br /><br />
 
-**Pregunta 6:** De tots els models, quin és el més convenient? Perquè?<br />
+**Pregunta 6:** Quins son els desavantatges del model més convenient?<br />
 Son més complexes de dissenyar i entrenar que les CNNs o RNNs, i requereixen més recursos computacionals.
 <br /><br />
 
