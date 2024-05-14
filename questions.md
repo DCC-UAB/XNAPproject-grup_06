@@ -68,11 +68,17 @@ Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'er
 <br /><br />
 
 **Pregunta 10:** Quantes capes ha d tenir la nostra xarxa?<br />
-**Resposta 10:** 
 <br /><br />
 
 **Pregunta 11:** Canvia molt si s'executa amb un sample més petit l'aprenentatge del model CRNN-in-keras-v1?<br />
-**Resposta 11:** 
+Si, canvia de forma dràstica. Es pot observar que el rediment del model decreix de forma notable. 
+Per tal de contestar aquesta pregunta s’ha canviat el volum de les dades utilitzades reduint-les un 90% i s’ha realitzat la meitat de epochs (perquè el cost computacional sigui assequible en un entorn local) a l'hora de entrenar el model. Amb aquests canvis, els valors d’execució: 
+- Correct characters predicted : 87.26%
+- Correct words predicted      : 74.53%
+  canvien a els valors: 
+- Correct characters predicted : 7.47%
+- Correct words predicted      : 0.00%
+Amb els valors obtinguts es pot confirmar que l'aprenentatge canvia negativament, de forma que el model no apren de manera correcta. Per tant, es pot afirmar que s'ha d'utilitzar un gran volum de dades i un nombre d'epochs elevat per tal d'obtenir uns bons resultats pel nostre model.
 <br /><br /><br />
 <br />
 
