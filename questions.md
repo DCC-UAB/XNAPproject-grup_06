@@ -62,4 +62,4 @@ Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'er
 <br />
 
 > [!NOTE]
-> Com a convenient s'entèn que fa que el model aprengui millor (== més accuracy).
+> Com a convenient s'entèn que fa que el model aprengui millor.
