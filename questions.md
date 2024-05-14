@@ -60,7 +60,12 @@ Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'er
 
 **Pregunta 9:** Quantes capes ha d tenir la nostra xarxa?<br />
 <br /><br /><br />
+
+**Pregunta 10:** Canvia molt si s'executa amb un sample més petit l'aprenentatge del model CRNN-in-keras-v1?<br />
+<br /><br /><br />
 <br />
+
+
 
 > [!NOTE]
 > Com a convenient s'entèn que fa que el model aprengui millor.
