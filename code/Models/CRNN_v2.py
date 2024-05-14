@@ -1,3 +1,7 @@
+# Model amb dues xarxes neuronals, una encarregada de reconèixer paraules i l'altra 
+# encarregada de llegir les línias d'una imatge
+
+
 from Parameter import *
 from keras import backend as K
 from keras.layers.convolutional import Conv2D, MaxPooling2D
