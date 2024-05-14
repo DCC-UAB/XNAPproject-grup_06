@@ -23,28 +23,28 @@
 **FASE 2**
 
 **Pregunta 1:** Quins models podem fer servir?
-**Resposta 1:** CNN, RNN i CRNN. Creiem que el més convenient és CRNN (CNN + RNN).
+**Resposta 1:** CNN, RNN i CRNN. 
 
 **Pregunta 2:** Perquè es poden fer servir els models anteriors?
-**Resposta 2:** 
+**Resposta 2:** CNN permet detectar carcaterístiques de les imatges. RNN permet capturar dependències seqüencials a llarg termini, que serveix pel reconeixement de paraules. CRNN combina les característiques de les dues xarxes anteriors.
 
 **Pregunta 3:** Es pot fer servir una MLP complexa?
-**Resposta 3:** 
+**Resposta 3:** No és la opció més òptima, per la manca de capacitat per capturar relacions espacials i "poca escalabilitat", entre vàries.
 
 **Pregunta 4:** És més convenient un model on l'aprenentage de cadascuna de les lletres es realitza per separat o de forma conjunta?
 **Resposta 4:** 
 
-**Pregunta 5:** És més convenient un model on l'aprenentage de cadascuna de les lletres es realitza per separat o de forma conjunta?
-**Resposta 5:** 
+**Pregunta 5:** De tots els models, quin és el més convenient? Perquè?
+**Resposta 5:** Creiem que el més convenient és CRNN, ja que és un model híbrid entre CNN i RNN que combina la capacitat de les CNNs per extreure característiques visuals i la capacitat de les RNNs per modelar seqüències. 
 
-**Pregunta 6:** De tots els models, quin és el més convenient? Perquè?
-**Resposta 6:** 
+**Pregunta 6:** Quin és el problema del model més convenient?
+**Resposta 6:** Son més complexes de dissenyar i entrenar que les CNNs o RNNs, i requereixen més recursos computacionals.
 
 **Pregunta 7:** Quins son els paràmetres del model més convenients? Perquè?
 **Resposta 7:** 
 
 **Pregunta 8:** Quina mètrica és la més òptima per avaluar el rendiment del model? Perquè?
-**Resposta 8:** 
+**Resposta 8:** Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'error de reconeixement de caràcters (Character Recognition Error), Word Error Rate (WER).
 
 
 Nota: Com a convenient s'entèn que fa que el model aprengui millor (== més accuracy).
