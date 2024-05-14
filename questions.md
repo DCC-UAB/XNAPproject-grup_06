@@ -22,7 +22,7 @@ Es definirà posteriorment, en haver realitzat diverses proves de contrast.
 
 **Pregunta 6:** Quantes capes ha d tenir la nostra xarxa?<br />
 Es definirà posteriorment, en haver realitzat diverses proves de contrast.
-<br /><br />
+<br /><br /><br />
 
 ## **FASE 2**
 
@@ -59,7 +59,7 @@ Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'er
 <br /><br />
 
 
-<br /><br />
+<br />
 
 > [!NOTE]
 > Com a convenient s'entèn que fa que el model aprengui millor (== més accuracy).
