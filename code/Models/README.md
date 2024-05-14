@@ -1,3 +1,5 @@
+# Models
+
 Aquesta carpeta conté els diferents models que s'utilitzen. Concretament:
 - Model MLP: Model amb train que requereixen de l'adaptació del dataset.
 - Model CNN: Model amb train que requereixen de l'adaptació del dataset.
