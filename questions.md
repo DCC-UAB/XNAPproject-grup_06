@@ -58,7 +58,8 @@ Son més complexes de dissenyar i entrenar que les CNNs o RNNs, i requereixen m�
 Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'error de reconeixement de caràcters (Character Recognition Error), Word Error Rate (WER).
 <br /><br />
 
-
+**Pregunta 9:** Quantes capes ha d tenir la nostra xarxa?<br />
+<br /><br /><br />
 <br />
 
 > [!NOTE]
