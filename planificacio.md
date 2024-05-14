@@ -1,7 +1,7 @@
 **Seguiment 2**
-- [ ] Executar els dos starting points
 - [ ] Realitzar gràfiques
-- [ ] Intentar millorar accuracy del segon model (CRNN amb keras)
-- [ ] Afegir model
+- [ ] Intentar millorar accuracy de "crnn-in-keras-v1"
+- [ ] Canviar paràmetres i mirar com repercuteix al model
+- [ ] Afegir capes i mirar com repercuteix al model
+- [ ] Executar "Model CRNN.ipynb"
 - [ ] Respondre preguntes
-- [ ] Canviar paràmetres i mirar com repercuteix a l'accuracy
