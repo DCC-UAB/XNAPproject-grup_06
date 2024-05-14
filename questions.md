@@ -54,16 +54,25 @@ Son més complexes de dissenyar i entrenar que les CNNs o RNNs, i requereixen m�
 **Resposta 7:** 
 <br /><br />
 
-**Pregunta 8:** Quina mètrica és la més òptima per avaluar el rendiment del model? Perquè?<br />
+**Pregunta 8:** Quina mètrica és la més òptima per avaluar el rendiment del model?<br />
 Es poden fer servir les mètriques: Accuracy, Precision, Recall, F1-score?, l'error de reconeixement de caràcters (Character Recognition Error), Word Error Rate (WER).
 <br /><br />
 
-**Pregunta 9:** Quantes capes ha d tenir la nostra xarxa?<br />
-**Resposta 9:** 
+**Pregunta 9:** Què aporten cadascuna de les mètriques anteriors?<br />
+- Accuracy: Nombre de prediccions correctes realitzades respecte a la proproció total de prediccions fetes. Serveix per avaluar, de forma general, com aprèn el model.
+- Precision: Nombre de prediccions positives realitzades correctament respecte el nombre total de casos positius. Serveix per avaluar la capacitat del model per identificar correctament els casos positius.
+- Recall: Proporció de tots els casos positius reals que el model ha identificat correctament. Serveix per avaluar la capacitat del model per identificar correctament els casos positius reals.
+- F1-score: Combina les dues mètriques anteriors, Precision i Recall. Serveix per avaluaar tant la capacitat del model per identificar correctament les instàncies positives com la seva capacitat per evitar falsos positius.
+- L'error de reconeixement de caràcters (Character Recognition Error)
+- Taxa d'error de les paraules (Word Error Rate)
 <br /><br />
 
-**Pregunta 10:** Canvia molt si s'executa amb un sample més petit l'aprenentatge del model CRNN-in-keras-v1?<br />
+**Pregunta 10:** Quantes capes ha d tenir la nostra xarxa?<br />
 **Resposta 10:** 
+<br /><br />
+
+**Pregunta 11:** Canvia molt si s'executa amb un sample més petit l'aprenentatge del model CRNN-in-keras-v1?<br />
+**Resposta 11:** 
 <br /><br /><br />
 <br />
 
