@@ -88,9 +88,9 @@ Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són m
 <br /><br /><br />
 
 **FEEDBACK** <br />
-•⁠  ⁠Utilitzar l'error de reconeixement de caràcters (Character Recognition Error) i Word Error Rate (WER), que representen l'accuracy, com a mètriques.
-•⁠  ⁠No utilitzar els Precision, Recall i F1-score, perquè son per la quantitat de classes que hi ha son mètriques massa denses .
-•⁠  ⁠Utilitzar HeatMap en comptes de les mètriques anteriors.
+•⁠  ⁠Utilitzar l'error de reconeixement de caràcters (Character Recognition Error) i Word Error Rate (WER), que representen l'accuracy, com a mètriques.<br />
+•⁠  ⁠No utilitzar els Precision, Recall i F1-score, perquè son per la quantitat de classes que hi ha son mètriques massa denses .<br />
+•⁠  ⁠Utilitzar HeatMap en comptes de les mètriques anteriors.<br />
 •⁠  ⁠Resultat final: Model CRNN i CNN.
 <br /> <br /> <br />
 
