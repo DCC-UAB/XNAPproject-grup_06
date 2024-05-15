@@ -7,3 +7,13 @@ There are 206,799 first names and 207,024 surnames in total. The data was divide
 
 # Content
 The input data here are hundreds of thousands of images of handwritten names. In the Data, you’ll find the transcribed images broken up into test, training, and validation sets.
+
+<br />
+
+```
+# Get Kaggle dataset
+
+> pip install kaggle
+> kaggle datasets download -d landlord/handwriting-recognition
+> unzip handwriting-recognition.zip
+```
