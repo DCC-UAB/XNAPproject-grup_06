@@ -86,9 +86,8 @@ Amb els valors obtinguts es pot confirmar que l'aprenentatge canvia negativament
 **Pregunta 12:** Seria útil realitzar un HeatMap?<br />
 Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són més rellevants pel model durant el procés de reconeixement.
 <br /><br /><br />
-<br />
 
-**FEEDBACK**
+**FEEDBACK** <br />
 •⁠  ⁠Utilitzar l'error de reconeixement de caràcters (Character Recognition Error) i Word Error Rate (WER), que representen l'accuracy, com a mètriques.
 •⁠  ⁠No utilitzar els Precision, Recall i F1-score, perquè son per la quantitat de classes que hi ha son mètriques massa denses .
 •⁠  ⁠Utilitzar HeatMap en comptes de les mètriques anteriors.
