@@ -75,9 +75,11 @@ Si, canvia de forma dràstica. Es pot observar que el rediment del model decreix
 Per tal de contestar aquesta pregunta s’ha canviat el volum de les dades utilitzades reduint-les un 90% i s’ha realitzat la meitat de epochs (perquè el cost computacional sigui assequible en un entorn local) a l'hora de entrenar el model. Amb aquests canvis, els valors d’execució: 
 - Correct characters predicted : 87.26%
 - Correct words predicted      : 74.53%
-<br />canvien a els valors: 
+<br /><br />
+canvien a els valors: 
 - Correct characters predicted : 7.47%
 - Correct words predicted      : 0.00%
+<br /><br />
 Amb els valors obtinguts es pot confirmar que l'aprenentatge canvia negativament, de forma que el model no apren de manera correcta. Per tant, es pot afirmar que s'ha d'utilitzar un gran volum de dades i un nombre d'epochs elevat per tal d'obtenir uns bons resultats pel nostre model.
 <br /><br />
 
