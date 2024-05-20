@@ -1,13 +1,13 @@
-##**Seguiment 2**
-- [ ] Realitzar gràfiques
-- [ ] Intentar millorar accuracy de "crnn-in-keras-v1"
-- [ ] Canviar paràmetres i mirar com repercuteix al model
-- [ ] Afegir capes i mirar com repercuteix al model
-- [ ] Executar "Model CRNN.ipynb"
-- [ ] Respondre preguntes
+## **Seguiment 2**
+- [ ] Realitzar gràfiques.
+- [ ] Intentar millorar accuracy de "crnn-in-keras-v1".
+- [ ] Canviar paràmetres i mirar com repercuteix al model.
+- [ ] Afegir capes i mirar com repercuteix al model.
+- [ ] Executar "Model CRNN.ipynb".
+- [ ] Respondre preguntes.
 <br/><br/><br/>
 
-##**Seguiment 3**
+## **Seguiment 3**
 - [ ] Fer preguntes noves.
 - [ ] CNN:
   - [ ] Afegir accuracy (correct words predicted) i correct characters predicted.
