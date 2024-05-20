@@ -1,4 +1,4 @@
-**##Seguiment 2**
+##**Seguiment 2**
 - [ ] Realitzar gràfiques
 - [ ] Intentar millorar accuracy de "crnn-in-keras-v1"
 - [ ] Canviar paràmetres i mirar com repercuteix al model
@@ -7,7 +7,7 @@
 - [ ] Respondre preguntes
 <br/><br/><br/>
 
-**Seguiment 3**
+##**Seguiment 3**
 - [ ] Fer preguntes noves.
 - [ ] CNN:
   - [ ] Afegir accuracy (correct words predicted) i correct characters predicted.
