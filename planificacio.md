@@ -5,7 +5,7 @@
 - [ ] Afegir capes i mirar com repercuteix al model
 - [ ] Executar "Model CRNN.ipynb"
 - [ ] Respondre preguntes
-
+<br/><br/><br/>
 
 **Seguiment 3**
 - [ ] Fer preguntes noves.
