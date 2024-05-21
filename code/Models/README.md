@@ -1,11 +1,9 @@
 # Models
 
 Aquesta carpeta conté els diferents models que s'utilitzen. Concretament:
-- Model MLP: Model amb train que requereixen de l'adaptació del dataset.
-- Model CNN: Model amb train que requereixen de l'adaptació del dataset.
-- Model RNN: Model amb train que requereixen de l'adaptació del dataset.
-- Model CRNN: Model amb train i adaptació de dataset.
-- CRNN_v1: Document que únicament conté un model CRNN.
-- CRNN_v2: Document que únicament conté un model CRNN. Aquest model conté dues xarxes neuronals, una encarregada de reconèixer paraules (CNN) i l'altra encarregada de llegir les línias d'una imatge (RNN).
-- crnn-in-keras-v1: Model executat.
-- crnn-in-keras-v2: Model anterior amb modificacions.
+- CNN_starting_point_upgrade: Model CNN del starting point optimitzat.
+- crnn-in-keras: Versió inicial del model CRNN del starting point. 
+- crnn-in-keras-v1: Versió 1 del model CRNN del starting point. Rendiment del model: Correct characters predicted 55.46% i Correct words predicted 15.17%.
+- crnn-in-keras-v2: Versió 2 del model CRNN del starting point. S'afegeixen gràfiques i es canvia la creació del model. Rendiment del model: Correct characters predicted 42.21% i Correct words predicted 10.90%.
+- handwriting-recognition-using-crnn-in-keras: Versió del model CRNN del starting point. S'afegeixen gràfiques i es canvia la creació del model. Conté les gràfiques de "crnn-in-keras-v2", codi per executar el model amb més volum de dades, definicions i explicacions del codi, training and validation loss, codi per realitzar un HeatMap. Rendiment del model: Correct characters predicted 87.40% i Correct words predicted 74.17%.
+- Model CRNN: Model CRNN diferent al del Starting Point.
