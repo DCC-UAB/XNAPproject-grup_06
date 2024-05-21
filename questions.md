@@ -99,11 +99,11 @@ Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són m
 
 ## **FASE 3**
 
-**Pregunta 1:**
+**Pregunta 1:** <br />
 **Resposta 1:**
 <br /><br />
 
-**Pregunta 2:**
+**Pregunta 2:** <br />
 **Resposta 2:**
 <br /><br />
 
