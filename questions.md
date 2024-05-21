@@ -95,5 +95,18 @@ Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són m
 <br /> <br /> <br />
 
 
+
+
+## **FASE 3**
+
+**Pregunta 1:**
+**Resposta 1:**
+<br /><br />
+
+**Pregunta 2:**
+**Resposta 2:**
+<br /><br />
+
+
 > [!NOTE]
 > Com a convenient s'entèn que fa que el model aprengui millor.
