@@ -99,7 +99,7 @@ Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són m
 
 ## **FASE 3**
 
-**Pregunta 1:** <br />
+**Pregunta 1:** Per a què es fa servir ctc en el codi CRNN?<br />
 **Resposta 1:**
 <br /><br />
 
