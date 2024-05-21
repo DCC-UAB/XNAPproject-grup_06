@@ -1,4 +1,4 @@
-Aquesta carpeta conté els diferents models que s'utilitzen. Concretament:
+Aquesta carpeta conté diferents models desenvolupats al llarg de la part pràctica d'aquesta assignatura. Concretament:
 - Model MLP Imatges: Model amb train que requereixen de l'adaptació del dataset.
 - Model CNN: Model amb train que requereixen de l'adaptació del dataset.
 - Model RNN: Model amb train que requereixen de l'adaptació del dataset.
