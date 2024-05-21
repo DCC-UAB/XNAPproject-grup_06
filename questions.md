@@ -39,7 +39,7 @@ No és la opció més òptima, per la manca de capacitat per capturar relacions 
 <br /><br />
 
 **Pregunta 4:** És més convenient un model on l'aprenentage de cadascuna de les lletres es realitza per separat o de forma conjunta?<br />
-**Resposta 4:** 
+Per a reconèixer noms escrits a mà, és més convenient un model que aprengui de forma conjunta, és a dir, que reconegui paraules completes. Això permet aprofitar el context de les lletres dins de les paraules, la qual cosa sol conduir a una major precisió en les prediccions. Tot i axiò, en el cas de tenir un conjunt de dades límitat podria ser una bona opció entrenar un model per reconèixer lletres individuals.
 <br /><br />
 
 **Pregunta 5:** Quin és el model més convenient?<br />
