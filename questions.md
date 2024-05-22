@@ -102,6 +102,8 @@ Creiem que si, perquè pot ajudar a visualitzar quines parts d'una imatge són m
 **Pregunta 1:** Per a què es fa servir ctc en el codi CRNN?<br />
 Aquest codi defineix una funció de pèrdua (loss function) anomenada ctc_lambda_func, que s'utilitza per entrenar el model perquè pugui reconèixer els noms escrits a mà. La funció de pèrdua CTC és crucial per a tasques de reconeixement de seqüències on no hi ha una alineació directa entre les dades d'entrada (per exemple, una seqüència d'imatges o un senyal d'àudio) i les etiquetes de sortida (per exemple, una seqüència de caràcters o paraules). Aquesta funció ajuda a entrenar el model perquè pugui aprendre a predir seqüències de sortida correctes, fins i tot quan la longitud de les seqüències d'entrada i sortida no coincideix.
 ⁠Durant la fase d'entrenament, la funció de pèrdua CTC s'utilitza per calcular la diferència entre les prediccions del model (y_pred) i les etiquetes reals (labels). Aquesta diferència es minimitza per ajustar els pesos del model i millorar les prediccions.
+
+La CTC loss segmenta les imatges en infinitessimes parts per aconseguir una millor comprensió de les paraules escrites a mà. Aquesta funció calcula la probabilitat que els fragments successius formin part de la lletra o conjunt de lletres que s'està llegint, ajudant a identificar quines són les parts més probables de la paraula que s'està reconeixent. Això ajuda el model a generar prediccions més precises i acurades sobre el text que es vol llegir.
 <br /><br />
 
 **Pregunta 2:** Podria ser beneficios normalitzar la matriu de confusió?<br />
