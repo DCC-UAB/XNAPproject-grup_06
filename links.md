@@ -27,6 +27,7 @@ https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
 
 versio millorada: https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model
 
+sgd  https://www.kaggle.com/code/pandeyharsh407/handwritten-text-recognition-using-cnn
 <br /><br />
 
 ## **CRNN**
