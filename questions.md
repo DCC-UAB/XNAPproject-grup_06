@@ -104,8 +104,9 @@ Aquest codi defineix una funció de pèrdua (loss function) anomenada ctc_lambda
 ⁠Durant la fase d'entrenament, la funció de pèrdua CTC s'utilitza per calcular la diferència entre les prediccions del model (y_pred) i les etiquetes reals (labels). Aquesta diferència es minimitza per ajustar els pesos del model i millorar les prediccions.
 <br /><br />
 
-**Pregunta 2:** <br />
-**Resposta 2:**
+**Pregunta 2:** Podria ser beneficios normalitzar la matriu de confusió?<br />
+Sí, normalitzar la matriu de confusió pot ser molt útil perquè permet visualitzar les proporcions de prediccions correctes i incorrectes de manera més clara. 
+Aquesta visualització ens permetrà veure millor quins caràcters són predits correctament i quins tenen més errors, ajudant a comprendre millor el rendiment del nostre model.
 <br /><br />
 
 
