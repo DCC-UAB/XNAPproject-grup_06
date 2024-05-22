@@ -111,6 +111,12 @@ Sí, normalitzar la matriu de confusió pot ser molt útil perquè permet visual
 Aquesta visualització ens permetrà veure millor quins caràcters són predits correctament i quins tenen més errors, ajudant a comprendre millor el rendiment del nostre model.
 <br /><br />
 
+**FEEDBACK** <br />
+•⁠ Realitzar la conversió del model CNN a pytorch.
+•⁠ Crear un model CNN ben definit i posteriorment aplicar RNN.
+•⁠ Modificar el dataset de paraules, segmentant-les per lletres.
+<br /> <br /> <br />
+
 
 > [!NOTE]
 > Com a convenient s'entèn que fa que el model aprengui millor.
