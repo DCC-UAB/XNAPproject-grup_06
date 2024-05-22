@@ -14,6 +14,7 @@
   - [ ] Realitzar gràfiques.
   - [ ] Canviar paràmetres i mirar com repercuteix al model.
   - [ ] Afegir capes i mirar com repercuteix al model.
+- [ ] Modificació del dataset per segmentar les paraules en lletres.
 - [ ] CRNN:
   - [ ] Intentar millorar l'accuracy.
   - [ ] Canviar paràmetres i mirar com repercuteix al model.
