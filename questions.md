@@ -112,9 +112,9 @@ Aquesta visualització ens permetrà veure millor quins caràcters són predits 
 <br /><br />
 
 **FEEDBACK** <br />
-•⁠ Realitzar la conversió del model CNN a pytorch.
-•⁠ Crear un model CNN ben definit i posteriorment aplicar RNN.
-•⁠ Modificar el dataset de paraules, segmentant-les per lletres.
+•⁠ Realitzar la conversió del model CNN a pytorch. <br />
+•⁠ Crear un model CNN ben definit i posteriorment aplicar RNN. <br />
+•⁠ Modificar el dataset de paraules, segmentant-les per lletres. 
 <br /> <br /> <br />
 
 
