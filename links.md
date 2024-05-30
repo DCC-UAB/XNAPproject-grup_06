@@ -1,5 +1,8 @@
 ## **Links d'interès**
 
+
+## **Marc teòric**
+
 https://repositum.tuwien.ac.at/obvutwoa/download/pdf/2774578
 
 https://repositum.tuwien.ac.at/obvutwhs/download/pdf/2874742
@@ -21,14 +24,19 @@ https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master
 <br /><br />
 
 
+
+
 ## **CNN**
 
 https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn
 
-versio millorada: https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model
+versio millorada de l'anterior: https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model
 
-sgd  https://www.kaggle.com/code/pandeyharsh407/handwritten-text-recognition-using-cnn
+amb optimitzador sgd: https://www.kaggle.com/code/pandeyharsh407/handwritten-text-recognition-using-cnn
 <br /><br />
+
+
+
 
 ## **CRNN**
 
@@ -37,6 +45,8 @@ https://www.kaggle.com/code/quydau/handwriting-recognition-with-crnn-model
 https://github.com/huyhoang17/CRNN_CTC_English_Handwriting_Recognition/tree/master
 
 <br /><br />
+
+
 
 ## **CRNN amb Keras**
 https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras
