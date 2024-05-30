@@ -6,6 +6,7 @@
 
 ## **Objectius**
 Reconeixement de textes.
+Reconeixement de noms propis escrits de forma manual.
 
 
 ## **Dataset**
@@ -16,8 +17,10 @@ Per avaluar el model hi ha tres arxius CSV: written_name_train_v2, written_name_
 
 ## **Xarxes neuronals - MARC TEÒRIC**
 - CNN
+- Divisió imatges i cració nou dataset
 - CNN + RNN
 - Plantejament de l'ús de xarxes com: YOLO, POCHNET, Transformer Metric learning, decartat.
+- CRNN
 
 
 ## **Models - MARC PRÀCTIC**
