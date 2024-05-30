@@ -25,6 +25,9 @@ Per avaluar el model hi ha tres arxius CSV: written_name_train_v2, written_name_
 
 ## **Models - MARC PRÀCTIC**
 
+## **Avaluació dels models**
+
+## **Selecció del model**
 
 ## **Problemes i solucions**
 
