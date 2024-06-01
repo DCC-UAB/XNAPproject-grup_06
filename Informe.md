@@ -60,6 +60,20 @@ D'altra banda, a l'hora d'avaluar l'aprenentatge del model, es té en compte el 
 
 
 ## **Bibliografia**
+[1] Harald Scheidl, S. Fiel, and R. Sablatnig, “Word Beam Search: A Connectionist Temporal Classification Decoding Algorithm,” Aug. 2018, doi: https://doi.org/10.1109/icfhr-2018.2018.00052. <br/>
+[2] Diplom-Ingenieur, H. Scheidl, and R. Sablatnig, “Handwritten Text Recognition in Historical Documents DIPLOMARBEIT zur Erlangung des akademischen Grades Visual Computing eingereicht von.” Available: https://repositum.tuwien.ac.at/obvutwhs/download/pdf/2874742 <br/>
+[3] H. Scheidl, “Build a Handwritten Text Recognition System using TensorFlow,” Medium, May 22, 2023. https://towardsdatascience.com/2326a3487cd5 <br/>
+[4] L. CARES, “Handwritten Digit Recognition using Convolutional Neural Network (CNN) with Tensorflow,” Medium, Aug. 03, 2022. https://learner-cares.medium.com/handwritten-digit-recognition-using-convolutional-neural-network-cnn-with-tensorflow-2f444e6c4c31 <br/>
+[5] anandhkishan, “Handwritten-Character-Recognition-using-CNN/emnist cnn model.ipynb at master · anandhkishan/Handwritten-Character-Recognition-using-CNN,” GitHub, 2018. https://github.com/anandhkishan/Handwritten-Character-Recognition-using-CNN/blob/master/emnist%20cnn%20model.ipynb <br/>
+[6] S. Gautam, “How to Make Real-Time Handwritten Text Recognition With Augmentation and Deep Learning,” Medium, May 16, 2023. https://sushantgautm.medium.com/how-to-make-real-time-handwritten-text-recognition-with-augmentation-and-deep-learning-9281323d80c1 <br/>
+[7] Nightmare, “NightmareNight-em/Handwritten-Digit-Recognition,” GitHub, Dec. 21, 2019. https://github.com/NightmareNight-em/Handwritten-Digit-Recognition/tree/master <br/>
+[8] Đ. Q. Tuấn, “tuandoan998/Handwritten-Text-Recognition,” GitHub, May 11, 2024. https://github.com/tuandoan998/Handwritten-Text-Recognition/tree/master <br/>
+[9] “OCR Handwriting Recognition CNN,” kaggle.com. https://www.kaggle.com/code/ademhph/ocr-handwriting-recognition-cnn <br/>
+[10] “Handwriting Recognition Using CNN Model,” kaggle.com. https://www.kaggle.com/code/ademhph/handwriting-recognition-using-cnn-model <br/>
+[11] “Handwritten text Recognition using CNN,” kaggle.com. https://www.kaggle.com/code/pandeyharsh407/handwritten-text-recognition-using-cnn <br/>
+[12] “Handwriting_Recognition_with_CRNN_Model,” kaggle.com. https://www.kaggle.com/code/quydau/handwriting-recognition-with-crnn-model <br/>
+[13] P. Hoang, “huyhoang17/CRNN_CTC_English_Handwriting_Recognition,” GitHub, Feb. 21, 2023. https://github.com/huyhoang17/CRNN_CTC_English_Handwriting_Recognition/tree/master <br/>
+[14] “Handwriting Recognition using CRNN in Keras,” kaggle.com. https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras
 <br/><br/><br/>
 
 
