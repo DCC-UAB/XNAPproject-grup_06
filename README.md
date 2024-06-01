@@ -1,18 +1,17 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/L30CyvB9)
 # XNAP - Hand written recognition
-**Objective:** recognise "easy" hand written names.
+**Objectiu:** reconèixer noms escrits a mà "fàcils".
 
-**Type of model:** CNN, CNN + RNN, (transformer metric learning)
+**Tipus de model:** CNN, CNN + RNN, (transformer metric learning)
 
-**Task:** text Recognition.
+**Tasca:** reconeixement de textes.
 
-Hand written recogition is a classic problem in the field of pattern recognition and computer vision, it remains a significant challenge due to the variability and the complexity of different human handriting.
+El reconeixement escrit a mà és un problema clàssic en el camp del reconeixement de patrons i la visió per ordinador, continua sent un repte important a causa de la variabilitat i la complexitat de diferents escriptures humanes.
 
-This project aims to leverage the power of deep learning to develop an accurate and efficient system for recognizing handwritten characters words or sentences by training neural networks on large datasets.
+Aquest projecte pretén aprofitar el poder de l'aprenentatge profund per desenvolupar un sistema precís i eficient per reconèixer paraules o frases de caràcters escrits a mà mitjançant l'entrenament de xarxes neuronals en grans conjunts de dades.
 
 
-
-## Contributors
+## Col·laboradors
 - Anna Vallvé - 1636670@uab.cat
 - Alex Guareño - 1638473@uab.cat
 - Fiona Bela - 1638438@uab.cat
