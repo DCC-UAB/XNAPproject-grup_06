@@ -1,1 +1,1 @@
-This section includes all the code used during the project.
+Aquesta secció inclou tot el codi utilitzat durant el projecte.
