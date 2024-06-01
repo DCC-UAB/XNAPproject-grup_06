@@ -19,7 +19,7 @@ The input data here are hundreds of thousands of images of handwritten names. In
 ```
 
 # Segmented Letters
-This dataset consists of segmented letters by words.
+This dataset consists of segmented words by letters.
 
 https://www.kaggle.com/datasets/guare13/handwritten-letters-recognition?select=written_letters_test.csv
 
