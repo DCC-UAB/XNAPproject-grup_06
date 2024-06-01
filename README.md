@@ -4,7 +4,7 @@
 
 **Tipus de model:** CNN, CNN + RNN, (transformer metric learning)
 
-**Tasca:** reconeixement de textes.
+**Tasca:** reconeixement de textos.
 
 El reconeixement escrit a mà és un problema clàssic en el camp del reconeixement de patrons i la visió per ordinador, continua sent un repte important a causa de la variabilitat i la complexitat de diferents escriptures humanes.
 
