@@ -17,3 +17,18 @@ The input data here are hundreds of thousands of images of handwritten names. In
 > kaggle datasets download -d landlord/handwriting-recognition
 > unzip handwriting-recognition.zip
 ```
+
+# Segmented Letters
+This dataset consists of segmented letters by words.
+
+https://www.kaggle.com/datasets/guare13/handwritten-letters-recognition?select=written_letters_test.csv
+
+<br />
+
+```
+# Get Kaggle dataset
+
+> pip install kaggle
+> kaggle datasets download -d guare13/handwritten-letters-recognition
+> unzip handwritten-letters-recognition.zip 
+```
