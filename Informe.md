@@ -30,6 +30,25 @@ Cada arxiu csv té dues columnes: "FILENAME", que indica el nom de la imatge, i 
 
 
 ## **Models - MARC PRÀCTIC**
+<br/>
+Després d'una anàlisi exhaustiva del nostre conjunt de dades, s’ha decidit no aplicar tècniques de data augmentation en el procés d'entrenament del nostre model de reconeixement de noms escrits a mà. La nostra decisió es basa en les següents raons:<br/>
+- El conjunt de dades d'entrenament utilitzat consta de 331.059 imatges, un volum que considerem prou gran per garantir una representació adequada de la variabilitat inherent en l'escriptura a mà. A més, els conjunts de proves i de validació també són amplis, amb 41.382 imatges cadascun, proporcionant així una base sòlida per a l'avaluació del model.<br/>
+- Una inspecció detallada del conjunt de dades ha revelat que les imatges inclouen una àmplia gamma d'estils d'escriptura, il·luminacions i altres factors de variació. Aquesta diversitat ja existent dins el conjunt de dades d'entrenament és suficient per a què el model pugui aprendre a generalitzar adequadament sense necessitat d'augmentar artificialment les dades.<br/>
+- L'augmentació de dades implica un processament addicional que pot augmentar el temps d'entrenament i el cost computacional. Atès que el conjunt de dades utilitzat és ja considerablement gran, s’ha optat per evitar aquest cost addicional i concentrar els recursos disponibles en l'optimització d'altres aspectes del model.<br/>
+- Les proves preliminars amb el conjunt de dades existent han mostrat que el model aconsegueix un rendiment sòlid amb una alta precisió en el reconeixement dels noms escrits a mà. La capacitat del model per generalitzar a noves dades sembla adequada segons les mètriques de validació, la qual cosa suggereix que el conjunt de dades actual és suficient per a les nostres necessitats.
+<br/><br/>
+
+(CNN imatges per lletres segmentades)<br/>
+En el reconeixement de noms escrits a mà amb imatges de mida 14x10, el disseny d'una xarxa neuronal convolucional (CNN) amb poques capes pot ser suficient per aconseguir un bon rendiment degut a la mida petita de les imatges i la simplicitat de la tasca.<br/>
+Amb una resolució de només 14x10 píxels, les imatges tenen una quantitat limitada d'informació. Això implica que no es requereixen moltes capes per extreure les característiques rellevants, ja que les convolucions i les capes de pooling poden capturar tota la informació útil en poques etapes.<br/>
+El reconeixement de noms escrits a mà és menys complex que altres tasques. Les característiques necessàries per distingir entre diferents caràcters o paraules poden ser capturades amb menys capes convolucionals.<br/>
+Utilitzar moltes capes en un model amb un conjunt de dades limitat pot conduir a un sobreajustament, on el model aprèn patrons específics de les dades d'entrenament però no generalitza bé a noves dades. Un model més simple amb poques capes és menys propens a aquest problema.<br/>
+Les capes essencials per el reconeixement de noms escrits a mà són les següents:<br/>
+- Capes convolucionals (Conv2D): Extreuen característiques locas de les imatges (vores, textures…). Una capa convolucional és necessària per detectar les característiques bàsiques de les lletres.<br/>
+- Capes de pooling (MaxPooling2D): Redueixen la dimensió espacial de les característiques extretes, reduint la complexitat computacional i afegint informació. Una capa de pooling després de la capa convolucional ajuda a reduir la mida de les característiques i a fer el model més robust a petites translacions.<br/>
+- Capes completament connectades (Fully Connected): Combina les característiques extretes per fer la classificació final. Una capa completament connectada és necessària per combinar les característiques i produir la sortida final.<br/>
+- Capes de sortida (Output Layer): Genera les possibilitats de les diferents classes (lletres o paraules). Una capa de sortida és necessària amb el nombre adequat de neurones per al nombre de classes. 
+
 <br/><br/><br/>
 
 
