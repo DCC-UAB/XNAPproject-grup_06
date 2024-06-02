@@ -117,6 +117,10 @@ Aquesta visualització ens permetrà veure millor quins caràcters són predits 
 •⁠ Modificar el dataset de paraules, segmentant-les per lletres. 
 <br /> <br /> <br />
 
+**PREGUNTES EXTRA** <br />
+**Pregunta 1:** Com afecta el paràmetre lr al nostre model CNN (reconeixement de lletres indivisuals)? <br />
+En el nostre model CNN el valor lr òpim és 0.005. S'ha provat valors cap a dalt i cap a baix i s'ha observat que aquest valor augmenta l'accuracy sense provocar overfitting. Si s'augmenta el valor el model produeix overfitting. Per altre banda, si es disminueix el valor l'accuracy del model disminueix.
+<br /> <br /> <br />
 
 > [!NOTE]
 > Com a convenient s'entèn que fa que el model aprengui millor.
