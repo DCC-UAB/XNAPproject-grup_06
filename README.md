@@ -10,6 +10,17 @@ El reconeixement escrit a mà és un problema clàssic en el camp del reconeixem
 
 Aquest projecte pretén aprofitar el poder de l'aprenentatge profund per desenvolupar un sistema precís i eficient per reconèixer paraules o frases de caràcters escrits a mà mitjançant l'entrenament de xarxes neuronals en grans conjunts de dades.
 
+## Estructura
+### Carpetes
+- code:
+- data:
+
+### Fitxers
+- Informe:
+- Links:
+- Planificació:
+- Qüestions:
+
 
 ## Col·laboradors
 - Anna Vallvé - 1636670@uab.cat
