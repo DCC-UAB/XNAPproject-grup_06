@@ -31,7 +31,7 @@ CNN, RNN i CRNN.
 <br /><br />
 
 **Pregunta 2:** Perquè es poden fer servir els models anteriors?<br />
-CNN permet detectar carcaterístiques de les imatges. RNN permet capturar dependències seqüencials a llarg termini, que serveix pel reconeixement de paraules. CRNN combina les característiques de les dues xarxes anteriors.
+CNN permet detectar característiques de les imatges. RNN permet capturar dependències seqüencials a llarg termini, que serveix pel reconeixement de paraules. CRNN combina les característiques de les dues xarxes anteriors.
 <br /><br />
 
 **Pregunta 3:** Es pot fer servir una MLP complexa?<br />
