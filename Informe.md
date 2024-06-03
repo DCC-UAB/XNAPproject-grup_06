@@ -101,7 +101,8 @@ A més, les gràfiques de "loss" són útils per ajustar els hiperparàmetres de
 [13] P. Hoang, “huyhoang17/CRNN_CTC_English_Handwriting_Recognition,” GitHub, Feb. 21, 2023. https://github.com/huyhoang17/CRNN_CTC_English_Handwriting_Recognition/tree/master <br/>
 [14] “Handwriting Recognition using CRNN in Keras,” kaggle.com. https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras  <br/>
 [15] “Guardar y cargar modelos | TensorFlow Core,” TensorFlow. https://www.tensorflow.org/tutorials/keras/save_and_load?hl=es-419 <br/>
-[16] “Saving and Loading Models — PyTorch Tutorials 1.4.0 documentation,” Pytorch.org, 2017. https://pytorch.org/tutorials/beginner/saving_loading_models.html
+[16] “Saving and Loading Models — PyTorch Tutorials 1.4.0 documentation,” Pytorch.org, 2017. https://pytorch.org/tutorials/beginner/saving_loading_models.html <br/>
+[17] “How to Predict Using a PyTorch Model | Saturn Cloud Blog,” saturncloud.io, Jul. 10, 2023. https://saturncloud.io/blog/how-to-predict-using-a-pytorch-model/#:~:text=To%20predict%20outcomes%20using%20the
 <br/><br/><br/>
 
 
