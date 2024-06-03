@@ -102,7 +102,11 @@ A més, les gràfiques de "loss" són útils per ajustar els hiperparàmetres de
 [14] “Handwriting Recognition using CRNN in Keras,” kaggle.com. https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras  <br/>
 [15] “Guardar y cargar modelos | TensorFlow Core,” TensorFlow. https://www.tensorflow.org/tutorials/keras/save_and_load?hl=es-419 <br/>
 [16] “Saving and Loading Models — PyTorch Tutorials 1.4.0 documentation,” Pytorch.org, 2017. https://pytorch.org/tutorials/beginner/saving_loading_models.html <br/>
-[17] “How to Predict Using a PyTorch Model | Saturn Cloud Blog,” saturncloud.io, Jul. 10, 2023. https://saturncloud.io/blog/how-to-predict-using-a-pytorch-model/#:~:text=To%20predict%20outcomes%20using%20the
+[17] “How to Predict Using a PyTorch Model | Saturn Cloud Blog,” saturncloud.io, Jul. 10, 2023. https://saturncloud.io/blog/how-to-predict-using-a-pytorch-model/#:~:text=To%20predict%20outcomes%20using%20the <br/>
+[18]“¿Qué son las redes neuronales convolucionales? | 3 cosas que debe saber,” es.mathworks.com. https://es.mathworks.com/discovery/convolutional-neural-network.html#:~:text=Una%20CNN%20consta%20de%20una <br/>
+[19] “Redes neuronales de memoria de corto-largo plazo - MATLAB & Simulink - MathWorks España,” es.mathworks.com. https://es.mathworks.com/help/deeplearning/ug/long-short-term-memory-networks.html <br/>
+[20] “Convolutional Recurrent Neural Network For Text Recognition,” www.xenonstack.com. https://www.xenonstack.com/insights/crnn-for-text-recognition
+
 <br/><br/><br/>
 
 
