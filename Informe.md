@@ -61,7 +61,14 @@ En haver dut a terme una recerca sobre les mètriques anteriors per avaluar els 
 En contrast, es va optar per no fer servir els indicadors Precision, Recall i F1-score.  Això és degut que, donada la quantitat de classes amb què es treballen (concretament 29), aquestes mesures són excessivament detallades. En contraposició, es va decidir utilitzar HeatMap, en comptes de les mètriques anteriors. Això és degut que ofereix una alternativa visualment potent i específica per avaluar el rendiment del model. <br/><br/>
 
 
-D'altra banda, a l'hora d'avaluar l'aprenentatge del model, es té en compte el subajustament (underfitting) i el sobreajustament (overfitting). 
+D'altra banda, a l'hora d'avaluar l'aprenentatge del model, es té en compte el subajustament (underfitting) i el sobreajustament (overfitting). <br/>
+
+Aquests dos conceptes es tenen en compte mitjançant les gràfiques de "loss". Aquestes, són eines essencials per avaluar el rendiment i la salut del model de reconeixement de noms escrits a mà al llarg del temps, ajudant a prendre decisions informades per millorar-lo. Aquestes gràfiques permeten veure com progressa l'entrenament del model, la qual cosa ajuda a determinar si el model està aprenent de manera adequada o si està tenint problemes. <br/>
+Un dels problemes amb els quals es podria trobar el model és el sobreajustament. Aquest fenomen es produeix quan el model aprèn massa bé els detalls i el soroll de les dades d'entrenament, a costa del seu rendiment en dades noves (de test). Si la "loss" d'entrenament continua disminuint mentre la "loss" de test comença a augmentar, és una senyal clara de sobreajustament. Les gràfiques de "loss" ajuden a detectar aquest tipus de problemes i a prendre mesures, com ara utilitzar tècniques de regularització o aturar l'entrenament abans.<br/>
+D'altra banda, el subajustament és un altre dels problemes amb els quals es podria trobar el model. Aquest fenomen es produeix quan el model és massa senzill per capturar les relacions subjacents en les dades. Si tant la "loss" d'entrenament com la de test es mantenen altes i no disminueixen suficientment, és una senyal de subajustament. Això pot indicar la necessitat d'un model més complex.<br/>
+A més, les gràfiques de "loss" són útils per ajustar els hiperparàmetres del model, com ara la mida del lot (batch size), la taxa d'aprenentatge (learning rate) i el nombre d'èpoques d'entrenament. Es pot veure l'impacte dels canvis en aquests paràmetres directament en les gràfiques. Aquesta informació proporcionada per les gràfiques pot ser de gran ajuda per optimitzar i perfeccionar l’entrenament del model utilitzat.
+
+
 
 <br/><br/><br/>
 
