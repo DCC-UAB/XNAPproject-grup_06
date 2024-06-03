@@ -21,12 +21,44 @@ Cada arxiu csv té dues columnes: "FILENAME", que indica el nom de la imatge, i 
 
 
 ## **Xarxes neuronals - MARC TEÒRIC**
-- CNN
-- Divisió imatges i cració nou dataset
-- CNN + RNN
-- Plantejament de l'ús de xarxes com: YOLO, POCHNET, Transformer Metric learning, decartat.
-- CRNN
-<br/><br/><br/>
+Per abordar la tasca presentada prèviament, inicialment es va realitzar un plantejament envers les xarxes neuronals més aptes per al reconeixement de textos. Aquesta tasca implica la conversió d'imatges de text manuscrit en una representació textual que pugui ser processada per màquines. Per abarcar aquest problema, s'utilitzen arquitectures de xarxes neuronals convolucionals (CNN) i xarxes neuronals recurrents (RNN), combinades en una xarxa coneguda com a CRNN (Convolutional Recurrent Neural Network). <br/>
+Cada tipus de xarxa aporta característiques complementàries que, combinades, proporcionen una solució potent i eficaç per a la tasca a realitzar. Per un costat, la CNN s’encarrega de l’extracció de les característiques, detectant patrons locals en les imatges, com vores, corbes i textures. En contrast, la RNN permet capturar dependències seqüencials a llarg termini, essent capaces d’adaptar el reconeixement de text en funció del context. Per exemple, si es prediu la paraula "HOIA", la RNN detectarà l'error i substituirà la "I" per la "L", predint la paraula "HOLA". Per tant, la RNN millora la precisió en predir la paraula. <br/>
+En resum, la xarxa neuronal CRNN és un model híbrid entre CNN i RNN, que combina la capacitat de les CNN’s per extreure característiques visuals i de les RNN’s per modelar seqüències. <br/><br/>
+
+
+Prèviament a realitzar la implementació (Vegeu Apartat Models - MARC PRÀCTIC), es duu a terme una explicació de les xarxes convolucionals (CNN), xarxes neuronals recurrents (RNN) i CRNN (xarxes neuronals recurrents convolucionals), per tal d’establir una base sobre que desenvolupar el marc de treball. <br/>
+
+Les CNN funcionen imitant el sistema visual del cervell humà, amb capes que s'especialitzen a detectar característiques cada cop més complexes. Les primeres capes d'una CNN poden detectar línies i vores bàsiques, mentre que les capes superiors combinen aquestes característiques bàsiques per formar representacions més complexes, com ara rostres o vehicles. Aquest procés s'aconsegueix mitjançant l'ús de convolucions, on s'apliquen filtres (coneguts com a kernels) a les imatges d'entrada per extreure'n característiques rellevants. Els nuclis s'ajusten durant l'entrenament de la xarxa per maximitzar la capacitat de la xarxa per distingir entre diferents tipus d'imatges. <br/>
+Conforme el processament avança a través de les capes, les característiques es tornen més complexes, i sorgeixen les capes convolucionals més profundes com les que se'n consideren les representacions més essencials dels atributs de les imatges. <br/>
+Aquestes xarxes neuronals poden tenir desenes o centenars de capes, i cadascuna aprèn a detectar diferents característiques d'una imatge. S'apliquen filtres a les imatges d'entrenament amb diferents resolucions, i la sortida resultant de convolucionar cada imatge s'empra com a entrada per a la capa següent. Els filtres poden començar com a característiques molt simples, com ara brillantor i vores, i anar creixent en complexitat fins a convertir-se en característiques que defineixen l'objecte de forma singular. <br/>
+Una CNN consta d’una capa d’entrada, una capa de sortida i diverses capes ocultes entre ambdues (Vegeu Fig. 1). <br/>
+
+<img width="542" alt="Captura de pantalla 2024-06-04 a las 1 38 03" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/eba7ef28-0b0d-4273-9985-09fc916b417c">
+<br/> Fig 1. Arquitectura d’una xarxa CNN <br/>
+
+
+Aquestes capes fan operacions que modifiquen les dades, amb el propòsit de comprendre'n les característiques particulars. Les 3 capes més comunes són: convolució, activació o ReLU, i agrupació. Per un costat, la capa de convolució aplica un conjunt de filtres convolucionals a les imatges d’entrada; cada filtre activa diferents característiques de les imatges. A continuació, la unitat lineal rectificada (ReLU), coneguda com a activació, manté els valors positius i estableix els valors negatius en zero, que permet un entrenament més ràpid i eficaç. Finalment, la capa d’agrupació, conegudes com a capes de pooling, redueixen la dimensionalitat i s’encarreguen de descartar informació espacial i detalls irellevants. <br/> 
+
+Aquestes operacions es repeteixen en desenes o centenars de capes; cada capa aprèn a identificar diferents característiques (Vegeu Fig. 2). <br/>
+
+<img width="685" alt="Captura de pantalla 2024-06-04 a las 1 39 55" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/b0d4cc37-244a-493e-a972-d683a7bf4758">
+ <br/> Fig 2. Exemple de xarxa amb múltiples capes convolucionals <br/>
+
+En contraposició, una xarxa neuronal recurrent (RNN) és una estructura d'aprenentatge profund que utilitza informació passada per millorar el rendiment de la xarxa en les entrades actuals i futures. El que distingeix un RNN és la seva capacitat per mantenir un estat intern i utilitzar bucles ocults. Aquesta estructura (Vegeu Fig. 4) de bucle permet a la xarxa emmagatzemar informació passada en estat ocult i operar en seqüències. <br/>
+
+<img width="417" alt="Captura de pantalla 2024-06-04 a las 1 41 14" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/5f59f701-0656-4f3b-941f-b92ac2aa779a">
+<br/> Fig 3. Arquitectura d’una xarxa RNN <br/>
+
+La xarxa RNN aplica la informació passada a l'entrada actual mitjançant l'ús de dos conjunts de pesos: un per al vector d'estat ocult i un altre per a les entrades. Durant l'entrenament, la xarxa aprèn a ajustar aquests pesos per a les entrades i l'estat ocult. En la implementació, la sortida es genera considerant tant l'entrada actual com l'estat ocult, que a la vegada es basa en les entrades anteriors. <br/>
+A la pràctica, els RNN simples sovint es troben amb el problema de l'aprenentatge de dependències a llarg termini. En el seu entrenament, s'utilitza habitualment la retropropagació, però s'hi pot observar un fenomen de gradient "desapareixent" o "explotant". Aquestes dificultats poden resultar en pesos de la xarxa que es tornen molt petits o molt grans, limitant la capacitat del RNN per aprendre relacions a llarg termini de manera efectiva. Per superar aquesta limitació, s'ha desenvolupat un tipus especial de RNN conegut com a xarxa de memòria a llarg termini (LSTM). Les xarxes LSTM incorporen portes addicionals que regulen el flux d'informació entre l'estat ocult i la sortida, així com cap a l'estat ocult següent. Aquest mecanisme permet a la xarxa aprendre relacions a llarg termini amb més eficàcia en les dades. <br/><br/>
+
+
+En última instància, és necessari mencionar la CRNN, que consta el nucli d’aquest projecte. Les xarxes neuronals recurrents convolucionals o CRNN, s'utilitzen normalment per processar i classificar dades de seqüències com ara veu, text i imatges. La seva capacitat per manejar dades seqüencials de longitud variable i capturar dependències a llarg termini els fa especialment efectius en tasques que requereixen comprendre i modelar informació contextual i temporal, com ara el reconeixement de textos. <br/>
+El funcionament dels CRNN es basa en el processament d'una seqüència d'entrada, que pot ser imatges o mostres d'àudio. Aquesta seqüència es passa a través de capes convolucionals, similars a les utilitzades en les CNN, que són especialment efectives per a les entrades basades en imatges. Després, la sortida d'aquestes capes convolucionals alimenta una o més capes recurrents, que destaquen per la seva eficàcia en el tractament de dades seqüencials. Les capes recurrents mantenen un estat ocult que captura la informació de les entrades anteriors de la seqüència. Les connexions entre les capes convolucionals i recurrents són crucials; sovint, la sortida d'una capa convolucional es mostreja abans de ser introduïda a una capa recurrent, reduint la complexitat computacional de la xarxa i conservant les característiques essencials de l'entrada. Finalment, la sortida de l'última capa iterativa passa a través d'una capa final completament connectada, que produeix una predicció per a la seqüència d'entrada. Aquesta predicció pot comprendre una seqüència de caràcters, paraules o altres sortides rellevants per a la tasca. <br/><br/>
+
+
+Addicionalment, es va plantejar la possibilitat d’implementar altres models per tal de dur a terme aquesta tasca, com ara MLP, YOLO, POCHNET, Transformer o Metric Learning. Per un costat, en aquest context, la MLP suposa una xarxa excessivament simple, donat que manquen de la capacitat per processar dades seqüencials i incapacitat per capturar relacions espacials en imatges. No obstant això, s’ha considerat que, tant el sistema de detecció d'objectes YOLO com la  xarxa neuronal convolucional CNN PHOCNet, representen opcions molt complexes per implementar. En últim lloc, s’ha descartat l’ús de Transformer o Metric Learning, donat que s’ha prioritzat la implementació de la xarxa CRNN. 
+<br/> <br/>
 
 
 ## **Models - MARC PRÀCTIC**
