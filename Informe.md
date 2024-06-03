@@ -32,20 +32,17 @@ Les CNN funcionen imitant el sistema visual del cervell humà, amb capes que s'e
 Conforme el processament avança a través de les capes, les característiques es tornen més complexes, i sorgeixen les capes convolucionals més profundes com les que se'n consideren les representacions més essencials dels atributs de les imatges. <br/>
 Aquestes xarxes neuronals poden tenir desenes o centenars de capes, i cadascuna aprèn a detectar diferents característiques d'una imatge. S'apliquen filtres a les imatges d'entrenament amb diferents resolucions, i la sortida resultant de convolucionar cada imatge s'empra com a entrada per a la capa següent. Els filtres poden començar com a característiques molt simples, com ara brillantor i vores, i anar creixent en complexitat fins a convertir-se en característiques que defineixen l'objecte de forma singular. <br/>
 Una CNN consta d’una capa d’entrada, una capa de sortida i diverses capes ocultes entre ambdues (Vegeu Fig. 1). <br/>
-
 <img width="542" alt="Captura de pantalla 2024-06-04 a las 1 38 03" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/eba7ef28-0b0d-4273-9985-09fc916b417c">
 <br/> Fig 1. Arquitectura d’una xarxa CNN <br/>
 
 
 Aquestes capes fan operacions que modifiquen les dades, amb el propòsit de comprendre'n les característiques particulars. Les 3 capes més comunes són: convolució, activació o ReLU, i agrupació. Per un costat, la capa de convolució aplica un conjunt de filtres convolucionals a les imatges d’entrada; cada filtre activa diferents característiques de les imatges. A continuació, la unitat lineal rectificada (ReLU), coneguda com a activació, manté els valors positius i estableix els valors negatius en zero, que permet un entrenament més ràpid i eficaç. Finalment, la capa d’agrupació, conegudes com a capes de pooling, redueixen la dimensionalitat i s’encarreguen de descartar informació espacial i detalls irellevants. <br/> 
-
 Aquestes operacions es repeteixen en desenes o centenars de capes; cada capa aprèn a identificar diferents característiques (Vegeu Fig. 2). <br/>
-
 <img width="685" alt="Captura de pantalla 2024-06-04 a las 1 39 55" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/b0d4cc37-244a-493e-a972-d683a7bf4758">
- <br/> Fig 2. Exemple de xarxa amb múltiples capes convolucionals <br/>
+ <br/> Fig 2. Exemple de xarxa amb múltiples capes convolucionals <br/> <br/>
 
-En contraposició, una xarxa neuronal recurrent (RNN) és una estructura d'aprenentatge profund que utilitza informació passada per millorar el rendiment de la xarxa en les entrades actuals i futures. El que distingeix un RNN és la seva capacitat per mantenir un estat intern i utilitzar bucles ocults. Aquesta estructura (Vegeu Fig. 4) de bucle permet a la xarxa emmagatzemar informació passada en estat ocult i operar en seqüències. <br/>
 
+En contraposició, una xarxa neuronal recurrent (RNN) és una estructura d'aprenentatge profund que utilitza informació passada per millorar el rendiment de la xarxa en les entrades actuals i futures. El que distingeix un RNN és la seva capacitat per mantenir un estat intern i utilitzar bucles ocults. Aquesta estructura (Vegeu Fig. 3) de bucle permet a la xarxa emmagatzemar informació passada en estat ocult i operar en seqüències. <br/>
 <img width="417" alt="Captura de pantalla 2024-06-04 a las 1 41 14" src="https://github.com/DCC-UAB/XNAPproject-grup_06/assets/91673341/5f59f701-0656-4f3b-941f-b92ac2aa779a">
 <br/> Fig 3. Arquitectura d’una xarxa RNN <br/>
 
@@ -58,11 +55,10 @@ El funcionament dels CRNN es basa en el processament d'una seqüència d'entrada
 
 
 Addicionalment, es va plantejar la possibilitat d’implementar altres models per tal de dur a terme aquesta tasca, com ara MLP, YOLO, POCHNET, Transformer o Metric Learning. Per un costat, en aquest context, la MLP suposa una xarxa excessivament simple, donat que manquen de la capacitat per processar dades seqüencials i incapacitat per capturar relacions espacials en imatges. No obstant això, s’ha considerat que, tant el sistema de detecció d'objectes YOLO com la  xarxa neuronal convolucional CNN PHOCNet, representen opcions molt complexes per implementar. En últim lloc, s’ha descartat l’ús de Transformer o Metric Learning, donat que s’ha prioritzat la implementació de la xarxa CRNN. 
-<br/> <br/>
+<br/> <br/> <br/>
 
 
 ## **Models - MARC PRÀCTIC**
-<br/>
 Després d'una anàlisi exhaustiva del nostre conjunt de dades, s’ha decidit no aplicar tècniques de data augmentation en el procés d'entrenament del nostre model de reconeixement de noms escrits a mà. La nostra decisió es basa en les següents raons:<br/>
 - El conjunt de dades d'entrenament utilitzat consta de 331.059 imatges, un volum que considerem prou gran per garantir una representació adequada de la variabilitat inherent en l'escriptura a mà. A més, els conjunts de proves i de validació també són amplis, amb 41.382 imatges cadascun, proporcionant així una base sòlida per a l'avaluació del model.<br/>
 - Una inspecció detallada del conjunt de dades ha revelat que les imatges inclouen una àmplia gamma d'estils d'escriptura, il·luminacions i altres factors de variació. Aquesta diversitat ja existent dins el conjunt de dades d'entrenament és suficient per a què el model pugui aprendre a generalitzar adequadament sense necessitat d'augmentar artificialment les dades.<br/>
