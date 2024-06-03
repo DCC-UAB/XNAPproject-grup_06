@@ -99,7 +99,9 @@ A més, les gràfiques de "loss" són útils per ajustar els hiperparàmetres de
 [11] “Handwritten text Recognition using CNN,” kaggle.com. https://www.kaggle.com/code/pandeyharsh407/handwritten-text-recognition-using-cnn <br/>
 [12] “Handwriting_Recognition_with_CRNN_Model,” kaggle.com. https://www.kaggle.com/code/quydau/handwriting-recognition-with-crnn-model <br/>
 [13] P. Hoang, “huyhoang17/CRNN_CTC_English_Handwriting_Recognition,” GitHub, Feb. 21, 2023. https://github.com/huyhoang17/CRNN_CTC_English_Handwriting_Recognition/tree/master <br/>
-[14] “Handwriting Recognition using CRNN in Keras,” kaggle.com. https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras
+[14] “Handwriting Recognition using CRNN in Keras,” kaggle.com. https://www.kaggle.com/code/ahmadaneeq/handwriting-recognition-using-crnn-in-keras  <br/>
+[15] “Guardar y cargar modelos | TensorFlow Core,” TensorFlow. https://www.tensorflow.org/tutorials/keras/save_and_load?hl=es-419 <br/>
+
 <br/><br/><br/>
 
 
