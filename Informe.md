@@ -105,7 +105,8 @@ A més, les gràfiques de "loss" són útils per ajustar els hiperparàmetres de
 [17] “How to Predict Using a PyTorch Model | Saturn Cloud Blog,” saturncloud.io, Jul. 10, 2023. https://saturncloud.io/blog/how-to-predict-using-a-pytorch-model/#:~:text=To%20predict%20outcomes%20using%20the <br/>
 [18]“¿Qué son las redes neuronales convolucionales? | 3 cosas que debe saber,” es.mathworks.com. https://es.mathworks.com/discovery/convolutional-neural-network.html#:~:text=Una%20CNN%20consta%20de%20una <br/>
 [19] “Redes neuronales de memoria de corto-largo plazo - MATLAB & Simulink - MathWorks España,” es.mathworks.com. https://es.mathworks.com/help/deeplearning/ug/long-short-term-memory-networks.html <br/>
-[20] “Convolutional Recurrent Neural Network For Text Recognition,” www.xenonstack.com. https://www.xenonstack.com/insights/crnn-for-text-recognition
+[20] “Convolutional Recurrent Neural Network For Text Recognition,” www.xenonstack.com. https://www.xenonstack.com/insights/crnn-for-text-recognition <br/>
+[21] “What Is a Recurrent Neural Network (RNN)?,” es.mathworks.com. https://es.mathworks.com/discovery/rnn.html
 
 <br/><br/><br/>
 
