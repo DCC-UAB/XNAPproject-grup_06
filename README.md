@@ -12,14 +12,14 @@ Aquest projecte pretén aprofitar el poder de l'aprenentatge profund per desenvo
 
 ## Estructura
 ### Carpetes
-- code:
-- data:
+- code: conté tots els fitxers de codi utilitzats al llarg del treball.
+- data: conjunts de dades que s'han fet servir.
 
 ### Fitxers
-- Informe:
-- Links:
-- Planificació:
-- Qüestions:
+- Informe
+- Links: fonts d'interès.
+- Planificació
+- Qüestions: preguntes plantejades per les sessions de seguiment.
 
 
 ## Col·laboradors
