@@ -119,7 +119,7 @@ Aquesta visualització ens permetrà veure millor quins caràcters són predits 
 
 **PREGUNTES EXTRA** <br />
 **Pregunta 1:** Com afecta el paràmetre lr al nostre model CNN (reconeixement de lletres indivisuals)? <br />
-En el nostre model CNN el valor lr òpim és 0.005. S'ha provat valors cap a dalt i cap a baix i s'ha observat que aquest valor augmenta l'accuracy sense provocar overfitting. Si s'augmenta el valor el model produeix overfitting. Per altre banda, si es disminueix el valor l'accuracy del model disminueix.
+En el nostre model CNN el valor lr òpim és 0.005. S'ha provat valors cap a dalt i cap a baix i s'ha observat que aquest valor augmenta l'accuracy sense provocar overfitting. Si s'augmenta el valor el model produeix overfitting. Per altre banda, si es disminueix el valor l'accuracy del model disminueix. Cal remmarcar que el learning rate també depèn del batch size que es fa servir, augmentant la lr per batch sizes més grans i disminuint-la per batch sizes més petits.
 <br /> <br /> <br />
 
 > [!NOTE]
