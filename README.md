@@ -20,6 +20,7 @@ Aquest projecte pretén aprofitar el poder de l'aprenentatge profund per desenvo
 - Links: fonts d'interès.
 - Planificació
 - Qüestions: preguntes plantejades per les sessions de seguiment.
+- Slides: pdf de la presentació.
 
 
 ## Col·laboradors
